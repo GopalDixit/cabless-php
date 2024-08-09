@@ -2,7 +2,7 @@
 include 'header.php';
 
 // Fetch data from API
-$apiUrl = 'http://localhost:4800/api/services';
+$apiUrl = 'https://adminpanel-fback.onrender.com/api/services';
 $response = file_get_contents($apiUrl);
 $services = json_decode($response, true);
 ?>
