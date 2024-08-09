@@ -38,7 +38,7 @@ include "header.php";
 <script>
 document.addEventListener("DOMContentLoaded", function() {
     // Fetch carousel data
-    fetch('http://localhost:4800/api/carousel')
+    fetch('https://adminpanel-fback.onrender.com/api/carousel')
         .then(response => response.json())
         .then(data => {
             const carouselContainer = document.querySelector('.owl-carousel');
@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <script>
 document.addEventListener("DOMContentLoaded", function() {
     // Fetch services data
-    fetch('http://localhost:4800/api/services')
+    fetch('https://adminpanel-fback.onrender.com/api/services')
         .then(response => response.json())
         .then(data => {
             const serviceContainer = document.querySelector('.container-xxl.py-5 .row.g-4');
