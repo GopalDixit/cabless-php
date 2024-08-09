@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: application/json');
 
-$apiUrl = 'http://localhost:4800/api/gallery';
+$apiUrl = 'https://adminpanel-fback.onrender.com/api/gallery';
 
 $response = file_get_contents($apiUrl);
 
