@@ -12,7 +12,7 @@ function fetchData($url) {
 }
 
 // Fetch content from the API
-$apiUrl = 'http://localhost:4800/api/content/content';
+$apiUrl = 'https://adminpanel-fback.onrender.com/api/content/content';
 $contentData = fetchData($apiUrl);
 ?>
 
