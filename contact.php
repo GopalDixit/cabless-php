@@ -104,7 +104,7 @@ include 'footer.php';
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('http://localhost:4800/api/contact')
+    fetch('https://adminpanel-fback.onrender.com/api/contact')
         .then(response => response.json())
         .then(data => {
             document.getElementById('name').value = data.name;
@@ -126,7 +126,7 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
     };
 
     // Send form data to the backend API
-    fetch('http://localhost:4800/api/contact', {
+    fetch('https://adminpanel-fback.onrender.com/api/contact', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
